@@ -4,8 +4,8 @@ const AWS = require("aws-sdk");
 
 let s3 = new AWS.S3({
   region: "us-east-1",
-  accessKeyId: "AKIAX7A6N4FUZ4FFYFKA",
-  secretAccessKey: "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",
+  accessKeyId: "key-here",
+  secretAccessKey: "secret-key-here",
 });
 
 // CREATING A BUCKET
